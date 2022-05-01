@@ -1,0 +1,49 @@
+@media (max-width: 575px){
+	*{
+		box-sizing: border-box;
+	}
+	.menu{
+		position: static;
+	}
+	.menu a{
+		display: block;
+		width: 100%;
+		padding:20px 0px ;
+	}
+	.header{
+		margin: 0px;
+		padding: 100px 0px;
+		background-size: cover;
+		background-position: center;
+		min-height: 300px;
+	}
+	.text{
+		padding: 20px;
+	}
+	.text img{
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	.team{
+		box-sizing: border-box;
+		padding: 20px;
+	}
+	.team .card{
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+		margin: 20px 0;
+	}
+
+	.prices{
+		padding: 20px;
+
+	}
+	.prices .tarif{
+		display: block;
+		width: 100%;
+		margin: 20px 0;
+	}
+	
+}
